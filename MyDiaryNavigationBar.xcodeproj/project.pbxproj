@@ -13,6 +13,8 @@
 		C1E369C01E1401C600ADA04E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E369BE1E1401C600ADA04E /* Main.storyboard */; };
 		C1E369C21E1401C600ADA04E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E369C11E1401C600ADA04E /* Assets.xcassets */; };
 		C1E369C51E1401C600ADA04E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E369C31E1401C600ADA04E /* LaunchScreen.storyboard */; };
+		C1E369CE1E1402EE00ADA04E /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E369CD1E1402EE00ADA04E /* AnotherViewController.m */; };
+		C1E369D11E1406A500ADA04E /* MyDiaryUIAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E369D01E1406A500ADA04E /* MyDiaryUIAppearance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		C1E369C11E1401C600ADA04E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1E369C41E1401C600ADA04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1E369C61E1401C600ADA04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E369CC1E1402EE00ADA04E /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
+		C1E369CD1E1402EE00ADA04E /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
+		C1E369CF1E1406A500ADA04E /* MyDiaryUIAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDiaryUIAppearance.h; sourceTree = "<group>"; };
+		C1E369D01E1406A500ADA04E /* MyDiaryUIAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDiaryUIAppearance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				C1E369B91E1401C600ADA04E /* AppDelegate.m */,
 				C1E369BB1E1401C600ADA04E /* ViewController.h */,
 				C1E369BC1E1401C600ADA04E /* ViewController.m */,
+				C1E369CC1E1402EE00ADA04E /* AnotherViewController.h */,
+				C1E369CD1E1402EE00ADA04E /* AnotherViewController.m */,
+				C1E369CF1E1406A500ADA04E /* MyDiaryUIAppearance.h */,
+				C1E369D01E1406A500ADA04E /* MyDiaryUIAppearance.m */,
 				C1E369BE1E1401C600ADA04E /* Main.storyboard */,
 				C1E369C11E1401C600ADA04E /* Assets.xcassets */,
 				C1E369C31E1401C600ADA04E /* LaunchScreen.storyboard */,
@@ -151,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1E369BD1E1401C600ADA04E /* ViewController.m in Sources */,
+				C1E369D11E1406A500ADA04E /* MyDiaryUIAppearance.m in Sources */,
 				C1E369BA1E1401C600ADA04E /* AppDelegate.m in Sources */,
+				C1E369CE1E1402EE00ADA04E /* AnotherViewController.m in Sources */,
 				C1E369B71E1401C600ADA04E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
